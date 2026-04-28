@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+  Purple 50: hsl(260, 100%, 95%);
+- Purple 300: hsl(264, 82%, 80%)
+- Purple 500: hsl(263, 55%, 52%);
+- White: hsl(0, 0%, 100%);
+- Grey 100: hsl(214, 17%, 92%);
+- Grey 200: hsl(0, 0%, 81%);
+- Grey 400: hsl(224, 10%, 45%);
+- Grey 500: hsl(217, 19%, 35%);
+- Dark blue: hsl(219, 29%, 14%);
+- Black: hsl(0, 0%, 7%);
+}
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin:3rem 1rem;
+  background: hsl(214, 17%, 92%);
+}
+
+.container {
+  display:grid;
+  grid-template-columns:1fr;
+  gap:20px;
+}
+
+.card {
+  padding:30px;
+  border-radius:10px;
+  margin-bottom:20px;
+}
+
+.card-1 {
+  background-color: hsl(263, 55%, 52%);
+  color:white;
+  position:relative;
+}
+
+.card-1 h3 {
+  margin:15px 0;
+  line-height:1.6;
+  font-size:25px;
+  font-weight:500;
+}
+
+.card-1 p {
+  font-weight:600;
+  font-size:16px;
+  line-height:1.6;
+  opacity:0.8;
+}
+
+.user-1 {
+  display:flex;
+  align-items:center;
+  gap:15px
+}
+
+.user-1 img {
+  width:35px;
+  border-radius:50%;
+  border:1px solid white;
+}
+
+.user-info p {
+  opacity:0.7;
+  font-size:12px;
+}
+.user-info h4 {
+  font-weight:500;
+  line-height:1.4;
+}
+
+
+.card-2 {
+  background-color: hsl(217, 19%, 35%);
+  color:white;
+  position:relative;
+}
+.user-2 {
+  display:flex;
+  align-items:center;
+  gap:15px
+}
+.user-2 img {
+  width:35px;
+  border-radius:50%;
+}
+.card-2 h3 {
+  margin:15px 0;
+  line-height:1.4;
+  font-size:21px;
+  font-weight:500;
+}
+
+.card-2 p {
+  font-weight:600;
+  font-size:14px;
+  opacity:0.6;
+  line-height:1.6;
+}
+
+.user img {
+  border:none;
+}
+
+
+.card-3 {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+  position:relative;
+}
+.user-3 {
+  display:flex;
+  align-items:center;
+  gap:15px
+}
+.user-3 img {
+  width:35px;
+  border-radius:50%;
+}
+.card-3 h3 {
+  margin:15px 0;
+  line-height:1.4;
+  font-size:20px;
+  font-weight:500;
+}
+
+.card-3 p {
+  font-weight:600;
+  font-size:15px;
+  opacity:0.7;
+  line-height:1.6;
+}
+
+.card-4 {
+  background-color: hsl(0, 0%, 7%);
+  color: hsl(0, 0%, 81%);
+  position:relative;
+}
+.user-4 {
+  display:flex;
+  align-items:center;
+  gap:15px
+}
+.user-4 img {
+  width:35px;
+  border-radius:50%;
+  border:1px solid hsl(263, 55%, 52%);;
+}
+.card-4 h3 {
+  margin:15px 0;
+  font-weight:500;
+  line-height:1.4;
+  font-size:23px;
+  
+}
+
+.card-4 p {
+  font-weight:600;
+  line-height:1.6;
+  opacity:0.8;
+  font-size:15px;
+}
+
+.card-5 {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+  position:relative;
+}
+.user-5 {
+  display:flex;
+  align-items:center;
+  gap:15px
+}
+.user-5 img {
+  width:35px;
+  border-radius:50%;
+}
+.card-5 h3 {
+  margin:15px 0;
+  font-weight:500;
+  line-height:1.4;
+  font-size:25px;
+}
+
+.card-5 p {
+  font-weight:600;
+  line-height:1.6;
+  opacity:0.7;
+  
+}
